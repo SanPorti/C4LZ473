@@ -1,0 +1,25 @@
+
+.color-navbar {
+    background-color: rgb(163, 255, 224);
+}
+
+.color-item-carrito {
+    background-color: rgb(185, 111, 255);
+}
+
+.brand {
+    letter-spacing: 5px;
+}
+
+.texto-navbar {
+    color: blueviolet !important;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 0 50px;
+}
+
+.texto-navbar:hover {
+    color: navy !important;
+    text-decoration: underline;
+    cursor: pointer;
+}
