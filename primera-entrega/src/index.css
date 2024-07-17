@@ -1,25 +1,152 @@
 
 .color-navbar {
-    background-color: rgb(163, 255, 224);
+    background-color: rgb(81, 83, 199);
 }
 
 .color-item-carrito {
     background-color: rgb(185, 111, 255);
 }
 
-.brand {
+.brand{
     letter-spacing: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.25s ease-in-out;
+    text-align: center;
+    font-weight: bold;
+}
+
+.brand:hover {
+    color: #e7a02e !important;
+    transition: 0.25s ease-in-out;
 }
 
 .texto-navbar {
-    color: blueviolet !important;
-    font-weight: 500;
+    color: white !important;
+    font-weight: 400;
     letter-spacing: 1px;
-    padding: 0 50px;
+    padding: 0 20px;
+    transition: 0.25s ease-in-out;
+    font-size: 18px;
 }
 
 .texto-navbar:hover {
-    color: navy !important;
+    color: #e7a02e !important;
     text-decoration: underline;
-    cursor: pointer;
+    transition: 0.25s ease-in-out;
+}
+
+.carrito-size {
+    width: 30px;
+}
+
+.cantidad-producto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cantidad-producto p{
+    width: 60px;
+}
+
+.fa-cart-shopping {
+    color: white;
+    transition: 0.25s ease-in-out;
+}
+
+.fa-cart-shopping:hover {
+    color: #e7a02e;
+    transition: 0.25s ease-in-out;
+}
+
+.margenes {
+    margin:10px ;
+}
+
+.container-botones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-botones .btn-group{
+    margin-bottom: 5px; 
+    display: flex;
+    align-items: baseline;
+
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card-text {
+    font-weight: 600;
+}
+
+.btn-custom {
+    color: #fff;
+    background-color: #4e6bff;
+    border-color: #4e6bff;
+    transition: 0.25s ease-in-out;
+}
+
+.btn-custom:hover {
+    background-color: #3248ff;
+    border-color: #3248ff;
+    transition: 0.25s ease-in-out;
+}
+
+.contador-size {
+    width: 50px;
+    text-align: center;
+}
+
+.card {
+    box-shadow: 3px 8px 7px 0px rgb(89, 104, 118);
+    transition: 0.4s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.4s ease-in-out;
+}
+
+.flex-item-detail {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.item-detail-size {
+    width: 800px;
+}
+
+.detail-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-text h1 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.item-detail-precio {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.card-item-detail {
+    border: solid 1px lightgray;
+    border-radius: 10px;
+    box-shadow: 3px 8px 7px 0px rgb(89, 104, 118);
 }
