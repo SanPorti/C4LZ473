@@ -8,7 +8,7 @@
         "categoria": "zapatillas",
         "genero": "hombre",
         "precio": 68800,
-        "stock": 100
+        "stock": 20
     },
     {
         "id": 2,
@@ -19,7 +19,7 @@
         "categoria": "zapatillas",
         "genero": "hombre",
         "precio": 92000,
-        "stock": 100
+        "stock": 20
     },
     {
         "id": 3,
@@ -30,7 +30,7 @@
         "categoria": "zapatillas",
         "genero": "hombre",
         "precio": 40000,
-        "stock": 100
+        "stock": 20
     },
     {
         "id": 4,
@@ -41,7 +41,7 @@
         "categoria": "zapatillas",
         "genero": "hombre",
         "precio": 86000,
-        "stock": 100
+        "stock": 20
     },
     {
         "id": 5,
@@ -52,7 +52,7 @@
         "categoria": "zapatillas",
         "genero": "hombre",
         "precio": 145000,
-        "stock": 100
+        "stock": 20
     },
     {
         "id": 6,
@@ -63,7 +63,7 @@
         "categoria": "zapatillas",
         "genero": "hombre",
         "precio": 80000,
-        "stock": 100
+        "stock": 20
     },
     {
         "id": 7,
@@ -74,7 +74,7 @@
         "categoria": "botines",
         "genero": "botines",
         "precio": 150000,
-        "stock": 100
+        "stock": 20
     },
     {
         "id": 8,
@@ -85,7 +85,7 @@
         "categoria": "botines",
         "genero": "botines",
         "precio": 190000,
-        "stock": 100
+        "stock": 20
     },
     {
         "id": 9,
@@ -96,7 +96,7 @@
         "categoria": "botines",
         "genero": "botines",
         "precio": 105000,
-        "stock": 100
+        "stock": 20
     },
     {
         "id": 10,
@@ -107,7 +107,7 @@
         "categoria": "botines",
         "genero": "botines",
         "precio": 155000,
-        "stock": 100
+        "stock": 20
     },
     {
         "id": 11,
@@ -118,7 +118,7 @@
         "categoria": "zapatillas",
         "genero": "hombre",
         "precio": 86000,
-        "stock": 100
+        "stock": 20
     },
     {
         "id": 12,
@@ -129,7 +129,7 @@
         "categoria": "zapatillas",
         "genero": "hombre",
         "precio": 115000,
-        "stock": 100
+        "stock": 20
     },
     {
         "id": 13,
@@ -140,7 +140,7 @@
         "categoria": "zapatillas",
         "genero": "hombre",
         "precio": 95000,
-        "stock": 100
+        "stock": 20
     },
     {
         "id": 14,
@@ -151,7 +151,7 @@
         "categoria": "zapatillas",
         "genero": "hombre",
         "precio": 109000,
-        "stock": 100
+        "stock": 20
     },
     {
         "id": 15,
@@ -162,7 +162,7 @@
         "categoria": "botines",
         "genero": "botines",
         "precio": 55000,
-        "stock": 100
+        "stock": 20
     },
     {
         "id": 16,
@@ -173,7 +173,7 @@
         "categoria": "zapatillas",
         "genero": "mujer",
         "precio": 72100,
-        "stock": 100
+        "stock": 20
     },
     {
         "id": 17,
@@ -184,7 +184,7 @@
         "categoria": "zapatillas",
         "genero": "mujer",
         "precio": 73600,
-        "stock": 100
+        "stock": 20
     },
     {
         "id": 18,
@@ -195,7 +195,7 @@
         "categoria": "zapatillas",
         "genero": "mujer",
         "precio": 79900,
-        "stock": 100
+        "stock": 20
     },
     {
         "id": 19,
@@ -205,8 +205,8 @@
         "imagen3": "/imagenes/zapatillas-atomik-suki-mujer-blanca-3.jpg",
         "categoria": "zapatillas",
         "genero": "mujer",
-        "precio":70900,
-        "stock": 100
+        "precio": 70900,
+        "stock": 20
     },
     {
         "id": 20,
@@ -216,8 +216,8 @@
         "imagen3": "/imagenes/zapatillas-running-fila-racer-curve-mujer-gris-3.jpg",
         "categoria": "zapatillas",
         "genero": "mujer",
-        "precio":80000,
-        "stock": 100
+        "precio": 80000,
+        "stock": 20
     },
     {
         "id": 21,
@@ -227,8 +227,8 @@
         "imagen3": "/imagenes/zapatillas-adidas-breaknet-2-0-mujer-crudo-3.jpg",
         "categoria": "zapatillas",
         "genero": "mujer",
-        "precio":86000,
-        "stock": 100
+        "precio": 86000,
+        "stock": 20
     },
     {
         "id": 22,
@@ -238,8 +238,8 @@
         "imagen3": "/imagenes/zapatillas-adidas-vulcraid3r-mujer-uva-3.jpg",
         "categoria": "zapatillas",
         "genero": "mujer",
-        "precio":68600,
-        "stock": 100
+        "precio": 68600,
+        "stock": 20
     },
     {
         "id": 23,
@@ -249,8 +249,8 @@
         "imagen3": "/imagenes/zapatillas-entrenamiento-puma-disperse-xt-3-knit-mujer-fucsia-3.jpg",
         "categoria": "zapatillas",
         "genero": "mujer",
-        "precio":57800,
-        "stock": 100
+        "precio": 57800,
+        "stock": 20
     },
     {
         "id": 24,
@@ -260,8 +260,8 @@
         "imagen3": "/imagenes/zapatillas-de-running-puma-redeem-profoam-mujer-negra-3.jpg",
         "categoria": "zapatillas",
         "genero": "mujer",
-        "precio":85000,
-        "stock": 100
+        "precio": 85000,
+        "stock": 20
     },
     {
         "id": 25,
@@ -271,8 +271,8 @@
         "imagen3": "/imagenes/zapatillas-47-street-bonfire-mujer-negra-3.jpg",
         "categoria": "zapatillas",
         "genero": "mujer",
-        "precio":105000,
-        "stock": 100
+        "precio": 105000,
+        "stock": 20
     },
     {
         "id": 26,
@@ -282,8 +282,8 @@
         "imagen3": "/imagenes/botines-de-futbol-adidas-predator-accuracy-3-tf-unisex-negro-3.jpg",
         "categoria": "botines",
         "genero": "botines",
-        "precio":92000,
-        "stock": 100
+        "precio": 92000,
+        "stock": 20
     },
     {
         "id": 27,
@@ -293,8 +293,8 @@
         "imagen3": "/imagenes/botines-de-futbol-diadora-squadra-ii-tf-unisex-celeste-3.jpg",
         "categoria": "botines",
         "genero": "botines",
-        "precio":55000,
-        "stock": 100
+        "precio": 55000,
+        "stock": 20
     },
     {
         "id": 28,
@@ -304,8 +304,8 @@
         "imagen3": "/imagenes/botines-de-futbol-puma-ultra-ultimate-fg-ag-mujer-fucsia-3.jpg",
         "categoria": "botines",
         "genero": "botines",
-        "precio":186200,
-        "stock": 100
+        "precio": 186200,
+        "stock": 20
     },
     {
         "id": 29,
@@ -315,8 +315,8 @@
         "imagen3": "/imagenes/botines-de-futbol-athix-kick-tf-unisex-plata-3.jpg",
         "categoria": "botines",
         "genero": "botines",
-        "precio":41000,
-        "stock": 100
+        "precio": 41000,
+        "stock": 20
     },
     {
         "id": 30,
@@ -326,8 +326,8 @@
         "imagen3": "/imagenes/botines-de-futbol-umbro-fifty-iv-tf-unisex-rosa-3.jpg",
         "categoria": "botines",
         "genero": "botines",
-        "precio":60000,
-        "stock": 100
+        "precio": 60000,
+        "stock": 20
     },
     {
         "id": 31,
@@ -337,8 +337,8 @@
         "imagen3": "/imagenes/zapatillas-adidas-racer-tr21-ni-o-ni-a-gris-3.jpg",
         "categoria": "zapatillas",
         "genero": "chicos",
-        "precio":64400,
-        "stock": 100
+        "precio": 64400,
+        "stock": 20
     },
     {
         "id": 32,
@@ -348,8 +348,8 @@
         "imagen3": "/imagenes/zapatillas-adidas-nebzed-ni-o-ni-a-fucsia-3.jpg",
         "categoria": "zapatillas",
         "genero": "chicos",
-        "precio":49700,
-        "stock": 100
+        "precio": 49700,
+        "stock": 20
     },
     {
         "id": 33,
@@ -359,8 +359,8 @@
         "imagen3": "/imagenes/botas-adidas-hoops-mickey-3-0-ni-o-ni-a-blanca-3.jpg",
         "categoria": "zapatillas",
         "genero": "chicos",
-        "precio":54600,
-        "stock": 100
+        "precio": 54600,
+        "stock": 20
     },
     {
         "id": 34,
@@ -370,8 +370,8 @@
         "imagen3": "/imagenes/zapatillas-addnice-los-angeles-classic-ni-a-blanca-3.jpg",
         "categoria": "zapatillas",
         "genero": "chicos",
-        "precio":32000,
-        "stock": 100
+        "precio": 32000,
+        "stock": 20
     },
     {
         "id": 35,
@@ -381,8 +381,8 @@
         "imagen3": "/imagenes/zapatillas-atomik-noa-ni-o-ni-a-blanca-3.jpg",
         "categoria": "zapatillas",
         "genero": "chicos",
-        "precio":45900,
-        "stock": 100
+        "precio": 45900,
+        "stock": 20
     },
     {
         "id": 36,
@@ -392,8 +392,8 @@
         "imagen3": "/imagenes/zapatillas-de-entrenamiento-addnice-indoor-ni-a-rosa-3.jpg",
         "categoria": "zapatillas",
         "genero": "chicos",
-        "precio":52000,
-        "stock": 100
+        "precio": 52000,
+        "stock": 20
     },
     {
         "id": 37,
@@ -403,8 +403,8 @@
         "imagen3": "/imagenes/zapatillas-running-puma-comet-2-alt-velcro-bebe-gris-3.jpg",
         "categoria": "zapatillas",
         "genero": "chicos",
-        "precio":40000,
-        "stock": 100
+        "precio": 40000,
+        "stock": 20
     },
     {
         "id": 38,
@@ -414,8 +414,8 @@
         "imagen3": "/imagenes/botines-de-futbol-adidas-deportivo-ii-fxg-ni_o-ni_a-blanco-3.jpg",
         "categoria": "botines",
         "genero": "botines",
-        "precio":32200,
-        "stock": 100
+        "precio": 32200,
+        "stock": 20
     },
     {
         "id": 39,
@@ -425,8 +425,8 @@
         "imagen3": "/imagenes/botines-de-futbol-kappa-verona-tf-ni-o-ni-a-naranja-3.jpg",
         "categoria": "botines",
         "genero": "botines",
-        "precio":46000,
-        "stock": 100
+        "precio": 46000,
+        "stock": 20
     },
     {
         "id": 40,
@@ -436,7 +436,7 @@
         "imagen3": "/imagenes/botines-de-futbol-adidas-x-speedportal-3-fg-ni-o-ni-a-verde-3.jpg",
         "categoria": "botines",
         "genero": "botines",
-        "precio":39600,
-        "stock": 100
+        "precio": 39600,
+        "stock": 20
     }
 ]

@@ -35,7 +35,7 @@ const Item = ({ item }) => {
                     <div className="card-body text-center">
                         <h5 className="card-title">{item.nombre}</h5>
                         <p className="card-text">$ {item.precio}</p>
-                        <ItemCount stock={item.stock} />
+                        <ItemCount item={item} />
                     </div>
                 </div>
             </div>

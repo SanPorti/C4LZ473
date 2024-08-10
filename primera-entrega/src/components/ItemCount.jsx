@@ -1,10 +1,12 @@
-import { useEffect, useState } from "react"
+import { useContext, useEffect, useState } from "react"
+import { Link } from "react-router-dom";
+import { CartContext } from "../context/CartContext";
 
-const ItemCount = ({ stock }) => {
+const ItemCount = ({item}) => {
 
     const [contador, setContador] = useState(1);
-    const [itemStock, setItemStock] = useState(stock);
-
+    const [itemStock, setItemStock] = useState(item.stock);
+    const {addItem} = useContext(CartContext);
 
     const incrementar = () => {
         if (contador < itemStock) {
@@ -18,16 +20,9 @@ const ItemCount = ({ stock }) => {
         }
     }
 
-    const onAdd = () => {
-        if (contador <= itemStock) {
-            setItemStock (itemStock - contador);
-            setContador(1);
-        }
-    }
-
     useEffect (() => {
-        setItemStock(stock)
-    }, [stock])
+        setItemStock(item.stock)
+    }, [item.stock])
 
     return (
         <>
@@ -37,8 +32,8 @@ const ItemCount = ({ stock }) => {
                     <p className="contador-size">{contador}</p>
                     <button type="button" className="btn btn-custom" onClick={incrementar}>+</button>
                 </div>
-                <button type="button" className="btn btn-custom" onClick={onAdd}>Agregar al Carrito</button>
-            </div>
+                <button type="button" className="btn btn-custom" onClick={() => addItem(item, contador)}>Agregar al Carrito</button>
+            </div> 
         </>
     )
 }

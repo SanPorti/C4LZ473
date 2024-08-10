@@ -1,29 +1,43 @@
 import { useEffect, useState } from "react"
 import ItemList from "./ItemList";
-import arrayProductos from "../productos/productos.json"
 import { useParams } from "react-router-dom";
+import { collection, getDocs, getFirestore } from "firebase/firestore";
+import Loading from "./Loading";
 
 const ItemListContainer = () => {
     const [items, setItems] = useState ([]);
     const {id} = useParams ();
+    const [loading, setLoading] = useState(true);
 
-    useEffect (() => {
-        const promesa = new Promise(resolve => {
-            setTimeout (() => {
-                resolve(id ? arrayProductos.filter(item => item.genero === id) : arrayProductos)
-            }, 2000)
-        })
+    useEffect(() => {
+        const db = getFirestore();
+        const itemsCollection = collection(db, "items");
 
-        promesa.then(response => {
-            setItems(response)
-        })
-    }, [id])
+        getDocs(itemsCollection)
+            .then(snapShot => {
+                if (snapShot.docs.length > 0) {
+                    const allItems = snapShot.docs.map(documento => ({
+                        id: documento.id,
+                        ...documento.data()
+                    }));
+
+                    const filteredItems = id
+                        ? allItems.filter(item => item.genero === id)
+                        : allItems;
+
+                    setItems(filteredItems);
+                    setLoading(false);
+                } else {
+                    console.log("Error! No existe la colección.");
+                }
+            })
+    }, [id]);
 
     return (
         <>
             <div className="container">
                 <div className="row ">
-                    <ItemList items={items} />
+                    {loading ? <Loading /> : <ItemList items={items} />}
                 </div>
             </div>
         </>
